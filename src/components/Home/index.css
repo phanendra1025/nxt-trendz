@@ -1,0 +1,158 @@
+/* Write your CSS code here */
+.app-home-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    min-height: 86vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .small-clothes-that-get-you-noticed-image {
+    width: 200px;
+  }
+  .clothes-that-get-you-noticed-image {
+    display: none;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .shop-now-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 3px;
+    height: 36px;
+    width: 140px;
+    margin-top: 8px;
+  }
+}
+/* @media screen and (min-width : 576px){
+    .about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .small-clothes-that-get-you-noticed-image {
+    width: 200px;
+  }
+  .clothes-that-get-you-noticed-image {
+    display: none;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .shop-now-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 3px;
+    height: 36px;
+    width: 140px;
+    margin-top: 8px;
+  }
+} */
+@media screen and (min-width: 768px) {
+  .about-container {
+    width: 520px;
+    margin-bottom: 35px;
+  }
+  .clothes-that-get-you-noticed-image {
+    width: 380px;
+  }
+  .small-clothes-that-get-you-noticed-image {
+    display: none;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 45px;
+    font-family: 'Roboto';
+  }
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+    line-height: 22px;
+    width: 510px;
+  }
+  .shop-now-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 3px;
+    height: 36px;
+    width: 140px;
+    margin-top: 8px;
+  }
+}
+/* .about-container {
+  width: 520px;
+  margin-bottom: 35px;
+}
+.clothes-that-get-you-noticed-image {
+  width: 380px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  line-height: 22px;
+  width: 510px;
+}
+.shop-now-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 3px;
+  height: 36px;
+  width: 140px;
+  margin-top: 8px;
+} */

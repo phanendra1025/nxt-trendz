@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+.website-login-image {
+  width: 500px;
+}
+@media screen and (max-width: 576px) {
+  .website-login-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) {
+  .website-login-image {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .website-login-image {
+    width: 500px;
+  }
+}
+.form-container {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 576px) {
+  .form-container {
+    height: 500px;
+  }
+}
+.website-logo {
+  width: 180px;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 576px) {
+  .website-login-mobile-image {
+    width: 250px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .website-login-mobile-image {
+    display: none;
+  }
+}
+.username-container {
+  margin-bottom: 15px;
+}
+.password-container {
+  margin-bottom: 15px;
+}
+.labels {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+  font-weight: bold;
+}
+.login-inputs {
+  width: 220px;
+  height: 32px;
+  padding: 8px;
+  background-color: #d7dfe9;
+  border-width: 0px;
+  border-radius: 2px;
+  padding-left: 13px;
+  margin-top: 5px;
+  color: #64748b;
+}
+.login-button {
+  width: 220px;
+  background-color: #0b69ff;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  color: #ffffff;
+  height: 36px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-family: 'Roboto';
+}
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+}

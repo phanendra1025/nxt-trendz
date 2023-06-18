@@ -1,0 +1,97 @@
+/* Write your CSS code here */
+.nav-bar-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 35px;
+    padding-top: 10px;
+    margin: 0px;
+  }
+}
+.header-website-logo {
+  width: 150px;
+}
+.nav-bar-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.link-item {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.logout-button {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  border-width: 0px;
+  color: #ffffff;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 576px) {
+  .link-item {
+    display: none;
+  }
+  .logout-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .small-device-logout-button {
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .small-device-logout-image {
+    width: 25px;
+  }
+  .nav-items-buttons-container {
+    background-color: #e6f6ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
+  .nav-buttons {
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .nav-home {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .small-device-logout-button {
+    display: none;
+  }
+  .small-device-logout-image {
+    display: none;
+  }
+  .nav-items-buttons-container {
+    display: none;
+  }
+}
